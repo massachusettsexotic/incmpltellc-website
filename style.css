@@ -80,3 +80,13 @@ footer {
 .appcard p { margin: 0; color: var(--muted); font-size: 15px; }
 .badge { display: inline-block; font-size: 13px; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 1px 10px; margin-left: 8px; vertical-align: middle; }
 .appicon { width: 96px; height: 96px; border-radius: 22px; float: right; margin: 0 0 12px 16px; }
+
+/* Disclaimer under the pesticide app — smaller and quieter than body copy,
+   but not hidden: it says a practice test is not a licence. */
+.fineprint {
+  font-size: .85rem;
+  color: #666;
+  border-left: 3px solid #ddd;
+  padding-left: .9rem;
+  margin-top: 2rem;
+}
